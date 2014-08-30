@@ -2,7 +2,7 @@
 layout: post
 title:  "搭建windows本地jekyll"
 date:   2014-08-29 08:42:45
-categories: haha
+categories: IT
 ---
 jekyll可以运行在github page上，理论上不需要在本地搭建jekyll。做这样的事是为了调试方便（也就是折腾）。
 
