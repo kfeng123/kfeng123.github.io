@@ -4,7 +4,7 @@ email: 446100240@qq.com
 description: > # this means to ignore newlines until "baseurl:"
   王睿的博客
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://kfeng123.github.io" # the base hostname & protocol for your site
 twitter_username: 
 github_username:  kfeng123
 
