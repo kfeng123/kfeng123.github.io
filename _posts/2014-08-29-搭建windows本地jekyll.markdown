@@ -53,7 +53,9 @@ gem install yajl-ruby -v 1.1.0 --platform=ruby
 然后下面列一份相关的网址资料，挺有用的觉得：
 
 [http://www.360doc.com/content/12/0421/09/1016783_205350218.shtml](http://www.360doc.com/content/12/0421/09/1016783_205350218.shtml)这里有很多资源
+
 [http://havee.me/internet/2013-08/support-pygments-in-jekyll.html](http://havee.me/internet/2013-08/support-pygments-in-jekyll.html)这里介绍了关于语法高亮显示的东西
+
 [http://pygments.org/docs/lexers/](http://pygments.org/docs/lexers/)这里是pygments官网提供的语言缩写
 
 [http://jekyllcn.com/](http://jekyllcn.com/)jekyll官网中文版
