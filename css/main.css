@@ -2,6 +2,9 @@
 	min-height:400px;
 }
 
+/*latex公式的css*/
+code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+
 
 /**
  * Syntax highlighting styles
