@@ -1,0 +1,25 @@
+---
+layout: post
+title: "修正p值的渐进功效"
+date: 2014-09-20 13:00:00
+categories: math
+---
+
+
+> Written with [StackEdit](https://stackedit.io/).
+
+>修正p值的渐近功效
+
+$$\begin{align}
+\tilde{p}(x)&=P(T(X)\geq T(x)|H_0,x)\\
+&=P(\frac{m+n}{p}\frac{\chi^2_p}{\chi^2_p+\chi^2_{n-p}+O_p(1)}\geq T(x)|x)\\
+&=P(\frac{\chi^2_{n-p}/(n-p)}{\chi^2_p/p}+\frac{O_p(1)}{n}\leq \frac{m+n}{n-p}\frac{1}{T(x)}-\frac{p}{n-p}|x)\\
+&=P(\frac{F_{n-p,p}-\frac{p}{p-2}}{\sqrt{2(\frac{p}{p-2})^2\frac{n-2}{(n-p)(p-4)}}}+\frac{O_p(1)}{\sqrt{n}}\leq \frac{\frac{m+n}{n-p}\frac{1}{T(x)}-\frac{p}{n-p}-\frac{p}{p-2}}{\sqrt{2(\frac{p}{p-2})^2\frac{n-2}{(n-p)(p-4)}}}|x)
+\end{align}$$
+
+由delta方法可知：$$\frac{F_{n-p,p}-\frac{p}{p-2}}{\sqrt{2(\frac{p}{p-2})^2\frac{n-2}{(n-p)(p-4)}}}\overset{d}{\longrightarrow}N(0,1)$$
+所以$\frac{F_{n-p,p}-\frac{p}{p-2}}{\sqrt{2(\frac{p}{p-2})^2\frac{n-2}{(n-p)(p-4)}}}+\frac{O_p(1)}{\sqrt{n}}\overset{d}{\longrightarrow}N(0,1)$
+
+因为$ N(0,1) $是连续分布，所以$\frac{F_{n-p,p}-\frac{p}{p-2}}{\sqrt{2(\frac{p}{p-2})^2\frac{n-2}{(n-p)(p-4)}}}+\frac{O_p(1)}{\sqrt{n}} $的分布函数一致收敛到$N(0,1)$的分布函数。
+由此可知，当n充分大时：
+$$|\tilde{p}(x)-\Phi(\frac{\frac{m+n}{n-p}\frac{1}{T(x)}-\frac{n}{n-p}-\frac{p}{p-2}}{\sqrt{2(\frac{p}{p-2})^2\frac{n-2}{(n-p)(p-4)}}})|<\epsilon$$
