@@ -22,9 +22,7 @@ $$\begin{align}
 
 因为$$ N(0,1) $$是连续分布，所以$$\frac{F_{n-p,p}-\frac{p}{p-2}}{\sqrt{2(\frac{p}{p-2})^2\frac{n-2}{(n-p)(p-4)}}}+\frac{O_p(1)}{\sqrt{n}} $$的分布函数一致收敛到$$N(0,1)$$的分布函数。
 
-由此可知，当n充分大时：
-
-$$|\tilde{p}(x)-\Phi(\frac{\frac{m+n}{n-p}\frac{1}{T(x)}-\frac{n}{n-p}-\frac{p}{p-2}}{\sqrt{2(\frac{p}{p-2})^2\frac{n-2}{(n-p)(p-4)}}})|<\epsilon$$
+由此可知，当n充分大时：$$|\tilde{p}(x)-\Phi(\frac{\frac{m+n}{n-p}\frac{1}{T(x)}-\frac{n}{n-p}-\frac{p}{p-2}}{\sqrt{2(\frac{p}{p-2})^2\frac{n-2}{(n-p)(p-4)}}})|<\epsilon$$
 
 我们想知道当$$x$$视为随机变量时$$\tilde{p}(x)$$的极限。由slutsky定理，我们只需考虑$$\Phi(\frac{\frac{m+n}{n-p}\frac{1}{T(x)}-\frac{n}{n-p}-\frac{p}{p-2}}{\sqrt{2(\frac{p}{p-2})^2\frac{n-2}{(n-p)(p-4)}}})$$的极限。
 
