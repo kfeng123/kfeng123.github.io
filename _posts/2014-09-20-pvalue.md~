@@ -8,7 +8,7 @@ categories: math
 
 
 
-###修正p值的渐近功效
+###正p值的渐近功效
 
 $$\begin{align}
 \tilde{p}(x)&=P(T(X)\geq T(x)|H_0,x)\\
