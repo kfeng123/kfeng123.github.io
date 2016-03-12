@@ -12,4 +12,4 @@ github_username:  kfeng123
 markdown: kramdown
 
 
-highlighter: pygments
+highlighter: rouge
