@@ -3,7 +3,7 @@ layout: post
 title: "R语言与混合效应模型"
 date: 2016-05-10 
 categories: STAT
---
+---
 
 
 nlme is the most mature one and comes by default with any R installation. In addition to fitting hierarchical generalized linear mixed models it also allows fitting non-linear ones. Its main advantages are, in my humble opinion, the ability to fit fairly complex hierarchical models using linear or non-linear approaches, a good variety of variance and correlation structures, and access to several distributions and link functions for generalized models. In my opinion, its main drawbacks are 
