@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "R语言与混合效应模型"
-date: 2016-05-10 
+date: 2016-05-10 16:32:22 
 categories: STAT
 ---
 
